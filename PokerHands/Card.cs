@@ -1,11 +1,11 @@
 ﻿namespace PokerHands
 {
-    public class C
+    public class Card
     {
         public CardValue CardValue { get; set; }
         public Suit Suit { get; set; }
 
-        public C(Suit suit, CardValue cardValue)
+        public Card(Suit suit, CardValue cardValue)
         {
             Suit = suit;
             CardValue = cardValue;
